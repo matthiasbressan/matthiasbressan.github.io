@@ -5,7 +5,7 @@
 ### Projects
 
 [Geoclustering](/sample_page)
-<img src="map_geoclustering.png?raw=true"/>
+<img src="images/map_geoclustering.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)

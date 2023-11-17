@@ -1,11 +1,11 @@
-title: Giacomo Labbri # your name (or website title) here
-logo: "/images/profile_image_circle.png?raw=true" # your photo (or logo) here
+title: Matthias Bressan # your name (or website title) here
+logo: "/images/matthias_tondo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  2+ years as data analyst
+  1+ year as data analyst
   <br><br>
-  Master in Physics
+  Master in Biology
   <br><br>
-  <a href="https://www.linkedin.com/in/giacomo-labbri/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/matthias-bressan/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

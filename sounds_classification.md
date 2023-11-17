@@ -13,9 +13,9 @@ We took the [UrbanSounds8k](https://www.kaggle.com/datasets/chrisfilo/urbansound
 ### 2. Preprocessing
 First thing we did was categorize the files into two classes: `engine_idling` and `non_engine_idling`, the second one containing the files of the other nine classes. 
 
-While all files were stored as .wav files, they showed some differences. To standardize the files within our balanced dataset, we first converted them all to one channel (mono), a sampling rate of 44100 Hz as well as extending shorter files to the length of the longest files, by adding silence at the end. Afterwards we decided to enlarge our dataset by augmenting it. This was done with aplying a 1 second time shift to each sound.  
+While all files were stored as .wav files, they showed some differences. To standardize the files within our balanced dataset, we first converted them all to one channel (mono), a sampling rate of 44100 Hz as well as extending shorter files to the length of the longest files, by adding silence at the end. Afterwards we decided to enlarge our dataset by augmenting it. We applied a random time shift of up to one second to each file.  
 
-<img src="images/sound_classification/preprocessing.png">
+<img src="images/sound_classification/Preprocessing.png">
 
 We decided to convert the sound files into images, as this is a proven approach for automated sound recognition tasks. After applying a fourier transformation, mel spectra were created for each file, both original and augmented. 
 
@@ -23,12 +23,12 @@ We decided to convert the sound files into images, as this is a proven approach 
 ### 3. Our model
 
 The datset was divided into training, validation and test data. Images were fed in batches of 32.\
-For our model, we chose an architecture containing convolutional layers, followed by dense layers. After testing different architectures, we chose 5 convolutional layers, all including max pooling and dropout. The feature maps resulting from the convolutional layers were then flattened and fed to three dense layers, including learning rate decay and momentum, applied to an Adam optimizer. All hyperparameters were optimized after applying an automated random grid search.
+For our model, we chose an architecture containing convolutional layers, followed by dense layers. After testing different architectures, we chose 5 convolutional layers, all including max pooling and dropout. The feature maps resulting from the convolutional layers were then flattened and fed to three dense layers. We included learning rate decay and momentum, applied to an Adam optimizer. All hyperparameters were optimized after applying an automated random grid search.
 
 <img src="images/sound_classification/NN-architecture.png">
 
 ### 4. Results
-The network had a test accuracy of  XX and a loss of XX before reaching overfitting. This resulted in a validation loss of XX and a validation accuracy of XX. Testing it on our test dataset gave an accuracy of XX %.
+The network had a test accuracy of 95% and a loss of 0.14 before reaching overfitting. This resulted in a validation loss of 0.11 and a validation accuracy of 95%. Testing it on our test dataset gave an accuracy of 97 % with a loss of 0.1.
 
 <div style="float: left; margin-right: 20px;">
     <img src="images/sound_classification/NN-architecture.png" alt="Image 1">

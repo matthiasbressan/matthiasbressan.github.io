@@ -30,15 +30,7 @@ For our model, we chose an architecture containing convolutional layers, followe
 ### 4. Results
 The network had a test accuracy of 95% and a loss of 0.14 before reaching overfitting. This resulted in a validation loss of 0.11 and a validation accuracy of 95%. Testing it on our test dataset gave an accuracy of 97 % with a loss of 0.1.
 
-<div style="float: left; margin-right: 20px;">
-    <img src="images/sound_classification/NN-architecture.png" alt="Image 1">
-</div>
-
-<div style="float: left;">
-    <img src="images/sound_classification/NN-architecture.png" alt="Image 2">
-</div>
-
-<div style="clear: both;"></div>
+<img src="images/sound_classification/accuracy-and-loss.png">
 
 ### 5. Next steps and improvements
 

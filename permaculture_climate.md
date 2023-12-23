@@ -1,10 +1,15 @@
-In this project we want to aid people who have a garden or want to create one, by providing weather data and weather projections specifically for their location.
+In this project we want to aid people who have a garden or want to create one, by providing localised weather informations as well as projections on the evolution of the weather.
 
-Beeing both a gardener and a biologist, I know first hand how important the weather can be for a garden and the organisms living in it. Here we want to provide people who might already have a garden or plan to start a new one with useful weather data. 
+Beeing both a gardener and a biologist, I know first hand how important the weather can be for a garden and the organisms living in it. Especially if you have longterm projects involving permaculture, a planing phase before starting is essential. 
+To aid with longterm plans we provide local data derived from 30 years of past weather informations, as well as a projection into the future evolution of the local climate 
 As a garden can be a longtime commitment, we also provide data for how the weather is supposed to evolve
 
-
-## Past dataset
+<div style="display: flex; justify-content: center;">
+  <p style="float: left;">
+    <img src="images/permaculture/winter.jpg" width="155" />
+    <img src="images/permaculture/summer.jpg" width="150" /> 
+  </p>
+</div>
 
 The dataset used for the past weather data is the [ERA5 monthly averaged data on single levels from 1940 to present](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview).
 From 

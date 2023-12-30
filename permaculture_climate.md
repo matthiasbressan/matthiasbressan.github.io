@@ -4,6 +4,14 @@
 With this project we want to make complex meteorological data accessible to people who want to start a permaculture project. We provide intuitive graphical representations of weather informations for a location of your choosing as well as projections on the evolution of the climate in the future. 
 To render the data more accessible we provide a dashboard in addition to a Jupyter notebook. 
 
+## What we learned/improved
+- API requests
+- managing xarray dataset, grib files
+- Plotly for graphical representations
+- dash project management with github
+- breaking down complex data
+
+
 As a biologist, a gardener and a permaculture beginner myself, I am aware of the importance of knowing the general climate tendencies of a location when planning what to plant, both for one and for multiple years. 
 As establishing a healthy and balanced ecosystem is a longterm endavour, and climate change is a rising issue, we included climate projections for the next 30 years. 
 Here we, a biologist and a meteorologist, teamed up to provide exactly that: a summary of the local climate, easy to understand without technical knowledge. 

@@ -2,6 +2,12 @@
 
 With this project, we wanted to create an AI that can be used to recognize the sound of idling engines in order to give automated warnings, either visual or acoustic. This can be used at any place where cars are not supposed to be left running in confined spaces, such as ships, enclosed trains and underground parkings. 
 
+## What we learned/improved
+- Applied Fourier and Mel-Spectrum transformations for effective input  to a Neural Network
+- Build and optimise a CNN Model for sound recognition with Tensorflow
+- Project collaboration using github 
+- Learned collaborative project management skills within a small team
+
 As a kid, my family took me and my brother to places like Sardinia or some Greek Island. As we wanted to take our car with us, we always used an auto ferry to get there. Life was good, until we got to the moment of disembarking. All passengers were called to the car decks to wait by their cars. These decks can get quite warm, especially in the mediterranean summer, so a lot of people had the idea to get into their cars and turn the engine on to get the air conditioning to work. While this was nice for them, it is not ideal to have a lot of cars with engines running in a confined space with limited ventilation, as this further increases the temperature and, more importantly, increases the amount of exhaust fumes all passengers outside of cars have to breath. While there were signs that said it is not allowed to leave the car on, the sailors were too busy with the docking operations to enforce this.
 
 This project was developed in collaboration with a friend, [Giacomo Labbri](https://giacomo-lab.github.io/).

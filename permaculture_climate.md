@@ -5,13 +5,13 @@ With this project we want to make complex meteorological data accessible to peop
 To render the data more accessible we provide a dashboard in addition to a Jupyter notebook. 
 
 ## What we learned/improved
-- API requests
-- managing xarray dataset, grib files
-- Plotly for graphical representations
-- dash project management with github
-- breaking down complex data
+- Create an app with a database using Dash, Plotly and SQL
+- Manage netcdf and grib files (Xarray and Pandas)
+- Write API requests
+- Recognize bottlenecks and optimizig performance
+- Project management with GitHub, code organization for better readability
 
-
+## Introcuction
 As a biologist, a gardener and a permaculture beginner myself, I am aware of the importance of knowing the general climate tendencies of a location when planning what to plant, both for one and for multiple years. 
 As establishing a healthy and balanced ecosystem is a longterm endavour, and climate change is a rising issue, we included climate projections for the next 30 years. 
 Here we, a biologist and a meteorologist, teamed up to provide exactly that: a summary of the local climate, easy to understand without technical knowledge. 
@@ -21,7 +21,7 @@ Here we, a biologist and a meteorologist, teamed up to provide exactly that: a s
     <img src="images/permaculture/summer.jpg" width="150" /> 
   </p>
 </div>
-The pictures above show my personal garden, what looks like chaos on the right is a selected mix of local plant species that try to provide a good and healthy habitat to insects, birds and small mammals. 
+The pictures above show my personal garden, what looks like chaos on the right is a selected mix of local plant species that try to provide a good and healthy habitat to insects, birds small mammals and amphibians. 
 
 ## Datasets
 
@@ -39,6 +39,17 @@ From this dataset we took projected rainfall, temperature, wind speed and direct
 Here we want to show one of our graphs as an example. This particular graph is made for Puebla de don Fadrique, Spain, as there is a starting permaculture project we provide the data for. 
 
 <img src="images/permaculture/rain_temp_graph.png"/>
+
+## Dashboard creation
+
+To make this program more user friendly, we decided to create two versions. One is a jupyter notebook where the code is executed cellwise, while the other is a dashboard. The idea behind the dashobard is that once all dependencies are installed, the climate informations are accessible to anyone, regardless of their python knowledge. The design is kept as minimalistic as possible. After entering a location the graphs are calculated and plottet, along with a description of the graph and a small introductory text for the selected location. While the accessibility problem was solved creating a dashboard, it left the challenge of long loading times.
+
+## Database management and performance optimization
+
+In order to decrease loading times we implemented two things.
+First we downloaded a dataset that includes all of mainland Europe since the standard CDS API can be quite slow. This means that only one time consuming API request is needed to get the required data before using the dashboard for the first time. \
+At the same time this meant that the already slow process of loading the grib files beccomes even more tideous. We approaced this by moving the variables from grib files (for the past data) and nc files (for the prediction data) into a .db file, accessible using SQL querys, which substantially reduced loading times.\
+Another step we took to achive better performance is parallelization of the climatology calculations using dask. 
 
 ## Future steps and expansion
 

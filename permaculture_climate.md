@@ -1,7 +1,7 @@
-# Visualisising meteorological data
+# Visualising climate data
 
 
-With this project we want to make complex meteorological data accessible to people who want to start a permaculture project. We provide intuitive graphical representations of weather informations for a location of your choosing as well as projections on the evolution of the climate in the future. 
+With this project we want to make complex climate data accessible to people who want to start a permaculture project. We provide intuitive graphical representations of weather informations for a location of your choosing as well as projections on the evolution of the climate in the future. 
 To render the data more accessible we provide a dashboard in addition to a Jupyter notebook. 
 
 ## What we learned/improved
@@ -55,4 +55,4 @@ Another step we took to achive better performance is parallelization of the clim
 
 While our dashboard runs locally, we developed it in a way that it can be deployed online without much extra effort. 
 
-We would also like to include biological information specifically centered around permaculture. Meaning, in addition to the meteorological data provided here, the user gets a list of plants that grow in the selected area, and ideally also infromations on grwoth temperature, water needs, and so on. This was not realisable yet as this information is not accessible for plant species that are outside of the main agricoltural focus, but are really important for a local ecosystem and therefore permaculture. 
+We would also like to include biological information specifically centered around permaculture. Meaning, in addition to the climate data provided here, the user gets a list of plants that grow in the selected area, and ideally also infromations on grwoth temperature, water needs, and so on. This was not realisable yet as this information is not accessible for plant species that are outside of the main agricoltural focus, but are really important for a local ecosystem and therefore permaculture. 

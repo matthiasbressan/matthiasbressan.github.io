@@ -1,8 +1,8 @@
 ## Predicting chl a content 
 
-In this project we want to calculate the *chlorophyll a* content of the water column using abiotic factors.
+In this project we want to calculate the *chlorophyll a* content (and therefore the phytoplancton) of the water column using abiotic factors.
 
-This could be of interest as it means that one can predict plancton concentration without the need of a photometer, potentially making it more cost effective. Disclaimer: as the dataset used is not openly available and the model might become part of a pubblication, I cant show any data here. 
+This could be of interest as it means that one can predict pyhtoplancton concentration without the need of a photometer, potentially making it more cost effective. Disclaimer: as the dataset used is not openly available and the model might become part of a pubblication, I cant show any data here. 
 
 ## Dataset and preprocessing
 

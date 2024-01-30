@@ -8,10 +8,12 @@ Developed using: `TensorFlow`, `Keras`, `Numpy`, `Librosa`, `Pandas`
 
 [Github repository](https://github.com/giacomo-lab/engine_idling_detection)
 
+
  ### [Time series prediction of phytoplancton abundance using a Dense Neuronal Network ](/chl.md) 
-#### A neuronal network to calculate chlorophyll a amount via abiotic factors
+#### A neural network to calculate chlorophyll a amount via abiotic factors
 <div style="text-align: center;">
 <img src="images/misc/Plancton.png?raw=true" width="300" height="200">
+<div style="text-align: left;">
 
 Developed using: `TensorFlow`, `Keras`, `Numpy`, `Librosa`, `Pandas`  
 ---

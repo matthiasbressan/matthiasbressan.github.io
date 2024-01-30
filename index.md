@@ -1,4 +1,4 @@
-## Portfolio
+# Portfolio
 ---
 
 ### [Reducing Emissions in Car Carriers: An AI-Based Alert System](/sounds_classification.md) 
@@ -9,9 +9,22 @@ Developed using: `TensorFlow`, `Keras`, `Numpy`, `Librosa`, `Pandas`
 
 [Github repository](https://github.com/giacomo-lab/engine_idling_detection)
 
+
+---
+### [PermaClimate Dashboard](/permaculture_climate.md) 
+#### A dashboard to aid climate related decision making for permacultures
+
+<img src="images/permaculture/dashboard.gif?raw=true"/>
+
+Developed using: `Xarray`, `Plotly`, `Dash`, `SQLite3`, `Pandas`  
+[Github repository](https://github.com/giacomo-lab/permaculture-climate)
 ---
 
- ### [Prediction of phytoplancton abundance using a Dense Neuronal Network ](/chl.md) 
+
+
+---
+
+### [Prediction of phytoplancton abundance using a Dense Neuronal Network](/chl.md) 
 
 
 #### A neural network to calculate chlorophyll a amount using abiotic factors
@@ -20,15 +33,3 @@ Developed using: `TensorFlow`, `Keras`, `Numpy`, `Librosa`, `Pandas`
 </div>
 
 Developed using: `TensorFlow`, `Keras`, `Numpy`, `Pandas`  
-
----
-
-
-### [PermaClimate Dashboard](/permaculture_climate.md) 
-#### A dashboard to aid climate related decision making for permacultures
-
-<img src="images/permaculture/dashboard.gif?raw=true"/>
-
-Developed using: `Xarray`, `Plotly`, `Dash`, `SQLite3`, `Pandas`  
-[Github repository](https://github.com/giacomo-lab/permaculture-climate)
-

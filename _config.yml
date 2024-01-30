@@ -3,12 +3,12 @@ logo: "/images/matthias_tondo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   1 year of experience in data analysis, programming with Python, 
   deep learning and statistics.
-<br>
+  <br>
   Master in Biology with experience in algae aquaculture, microbiology 
   and bioinformatics. 
   Passionate about climate change and sustainability.
-  A team-oriented problem solver with a curious mindset.
-<br>
+  A team-oriented problem solver with a curious mindset. 
+  <br>
   
   
 remote_theme: pages-themes/minimal@v0.2.0

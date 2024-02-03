@@ -27,6 +27,7 @@ Developed using: `Xarray`, `Plotly`, `Dash`, `SQLite3`, `Pandas`
      <img src="images/misc/DHS.png?raw=true" width="350" height="200">
 </div>
 
+---
 
 
 ## [Prediction of phytoplancton abundance using a Dense Neural Network](/chl.md) 

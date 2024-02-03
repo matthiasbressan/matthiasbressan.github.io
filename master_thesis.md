@@ -11,8 +11,6 @@ Statistical coupling analysis (SCA) uses coevolution between a protein's amino a
 - Working and approaching problems on my own, accompanied by a weekly meeting with my supervisor
 
 
-
-
 ## SCA as a method
 
 
@@ -32,16 +30,16 @@ While the name suggests that ICs are independent from one another, it was shown 
 ## Results
 
 
-One of the key requirements for SCA to work properly is low sequence similarity, which was not fulfilled by the DHS sequences. This resulted in widely different ICs, depending on the sequence dataset and alignment method. We decided to counter this problem by taking the ICs resulting from four different approaches and look for positions that can be found *n* of them. Using literature it was established that probably all ICs form one big sector (a result found for other proteins as well). \
-It was therefore decided to present three models, a conservative one (called blue model) that takes only positions that are present in all four sectors, a middle approach with positions in 3/4 sectors (green model), and one that takes positions in 2/4 sectors (purple model). As one might expect, the first blue model was comparatively small while the purple model included most of the protein's positions.
+One of the key requirements for SCA to work properly is low sequence similarity, which was not fulfilled by the DHS sequences. This resulted in widely different ICs, depending on the sequence dataset and alignment method. We decided to counter this problem by taking the ICs resulting from four different approaches and look for positions that can be found in *n* of them. Using literature it was established that probably all ICs form one big sector (a result found for other proteins as well). \
+It was therefore decided to present three models, a conservative one (called blue model) that takes only positions that are present in all four sectors, a middle approach with positions found in 3/4 sectors (green model), and one that takes positions in 2/4 sectors (purple model). As one might expect, the first blue model was comparatively small while the purple model included most of the protein's positions.
 
 
-The image below shows the three models, blue, green and purple. The DHS has a homotetrameric structure, shown here is the dimeric conformation. The left monomer of each model only shows positions that are part of the sector, while the right monomer shows the sector (in a different shade of the selected color) within the context of the rest of the monomer, shown in orange.
+The image below shows the three models, blue, green and purple. The DHS has a homotetrameric structure, plotted here is the dimeric conformation. The left monomer of each model only shows positions that are part of the sector, while the right monomer shows the sector (in a different shade of the selected color) within the context of the rest of the monomer, evidenced in orange.
 <img src="images/misc/sectors.png?raw=true"/>
 
 
-## Conlcusion
+## Conclusion
 
 
-This work showed that it was possible to apply SCA to the DHS with certain limitations due to the high sequence similarity found in the used datasets.  The presented models should therefore be considered more as an approximation to a true sector and less as a sector as it was defined by R. Ranganathan and its group. Testing these approximations by functional characterization of mutants should help in validating or disregarding the results from this work.
+This work showed that it was possible to apply SCA to the DHS with certain limitations due to the high sequence similarity found in the used datasets.  The presented models should therefore be considered more as an approximation to a true sector and less as a sector as defined by R. Ranganathan and its group. Testing these approximations by functional characterization of mutants should help in validating or disregarding the results from this work.
 

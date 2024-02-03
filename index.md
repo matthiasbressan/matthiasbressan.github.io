@@ -1,5 +1,5 @@
 
-## [Reducing Emissions in Car Carriers: An AI-Based Alert System](/sounds_classification.md) 
+## [Reducing emissions in car carriers: an AI-Based alert system](/sounds_classification.md) 
 ### A CNN to identify engine idling sounds 
 
 <img src="images/sound_classification/title_image_sound_classification.png?raw=true"/>

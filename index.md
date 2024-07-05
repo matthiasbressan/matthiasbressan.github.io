@@ -39,3 +39,7 @@ Developed using: `Xarray`, `Plotly`, `Dash`, `SQLite3`, `Pandas`
 </div>
 
 Developed using: `TensorFlow`, `Keras`, `Numpy`, `Pandas`  
+
+## [Certificates](/certificates.md) 
+### Certificates fromvarious online courses 
+

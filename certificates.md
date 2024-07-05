@@ -15,12 +15,12 @@ What I learned:
 * Create and work on relational databases with multiple tables
 * Intermediate to advanced SQL techniques incuding views, transactions, stored procedures and joins 
 
-### Neural Networks
+## Neural Networks
 
 
 These courses where the 'homework' part of two modules I attended in University: 
 
-## Neural Networks from scratch
+### Neural Networks from scratch
 Part of [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learnin)
 
 What I learned:
